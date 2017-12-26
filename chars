@@ -1,0 +1,38 @@
+package sinavsorusu;
+
+import java.util.Scanner;
+
+public class harfsayisi {
+
+	 public static void main(String[] args) 
+	 {     
+		 Scanner scan=new Scanner(System.in);
+		 System.out.println("Bir Cümle Giriniz");
+		 String harfsayisi=scan.nextLine();
+		 	harfsayisi = harfsayisi.toLowerCase(); 
+		 	// Tüm harfleri önce tanımlıyoruz
+	      String harfler = "abcdefghijklmnopqrstuvwxyz"; 
+	      // Yalnızca harf tanımlandığı için sayı ya da noktalama işaretleri vb. göstermeyecektir
+	           int[] asd = new int[harfler.length()];    
+	    
+	 for (int i = 0; i < harfsayisi.length(); i++)
+		 /* Girilen kelime içinde tanımlanan harflerden 
+		  *uyuşan olursa karakter sayısını arttırır
+		 	aramaya devam eder
+		  */
+	
+	 {   //Tanımlanan harflerden cümlede kaç tane olduğunu öğrenmek için ilk indis değerinden başlar
+		 // ve devam eder
+		 int find = harfler.indexOf(harfsayisi.charAt(i));  
+	 
+		 if (find < 0)         continue;     asd[find]++;     }    
+		 for (int i = 0; i < asd.length; i++)
+		 {     if (asd[i] < 1)         continue;    
+		 System.out.println(String.format
+				 ("%s (%d) %s",        
+				 harfler.charAt(i),         
+				 asd[i],                       
+		 new String(new char[asd[i]])));     } }
+	 }
+	 
+
