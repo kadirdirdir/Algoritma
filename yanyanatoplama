@@ -1,0 +1,29 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class yanyana {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Bir sayı giriniz: ");
+		Scanner scan = new Scanner (System.in);
+		
+		int sayi= scan.nextInt();
+		int toplam=0;
+		System.out.println("Toplam 0" + "  kalan  " + sayi );
+		
+		do {
+			toplam += sayi % 10;
+			sayi= sayi / 10;
+			
+			System.out.println("Toplam " + toplam + " kalan sayi "  + sayi);
+			
+		}
+		while (sayi > 0); 
+		System.out.println("Toplam sayı  " + toplam);
+		
+
+	}
+
+}
