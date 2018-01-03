@@ -1,0 +1,32 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class vizeortalama {
+
+	public static void main(String[] args) {
+        Scanner klavye = new Scanner(System.in);
+        System.out.println("Adınızı giriniz");
+        String ad = klavye.next();
+
+        System.out.println("Soyadınızı giriniz");
+        String soyad = klavye.next();
+
+        System.out.println("Vize notunuzu giriniz");
+        int vizeNotu = klavye.nextInt();
+
+        System.out.println("Final notunuzu giriniz");
+        int finalNotu = klavye.nextInt();
+
+        double ortalama = (double)(vizeNotu + finalNotu)/2;
+
+        System.out.println(
+                "Ad:" + ad + "\nSoyad:" + soyad +
+                "\nVize:" + vizeNotu + "\nFinal:" + finalNotu + "\nOrtalama=" + ortalama);
+
+    }
+
+
+	}
+
+
