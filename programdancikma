@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class whilee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		while (true) {
+			
+		
+		Scanner scan = new Scanner(System.in);
+		String s;
+		System.out.println("Bir karakter giriniz:");
+		s= scan.nextLine();
+		
+		
+		
+		if(s.equals("q")) {
+			System.out.println("programdan cıkılıyor");
+			break;
+		}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
