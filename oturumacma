@@ -1,0 +1,42 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class oturum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String sys_kul_adi= "kadirkcln";
+		String sifre= "123456";
+		
+		Scanner scan= new Scanner (System.in);
+		System.out.println("Kullanıcı adı: ");
+		
+		String kullanıcı_adı = scan.nextLine();
+		
+		System.out.println("Parola");
+		
+		String kul_parola = scan.nextLine();
+		
+		if (!(sys_kul_adi.equals(kullanıcı_adı)) && !(sifre.equals(kul_parola)))
+		{ System.out.println("Kullanıcı adı ve Şifre Yanlış ");
+			
+		}
+		
+		else if ((sys_kul_adi.equals(kullanıcı_adı)) && !(sifre.equals(kul_parola)))
+		{ System.out.println("Şifre yanlış"); }
+		else if (!(sys_kul_adi.equals(kullanıcı_adı)) && (sifre.equals(kul_parola)))
+			
+		{ System.out.println("Kullanıcı adı yanlış"); }
+		else { System.out.println("Giriş başarılı");
+	
+		
+		
+		
+		
+		}
+	}
+
+	}
+
+
