@@ -1,0 +1,31 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class kelimeayirma {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    
+	        Scanner klavye = new Scanner(System.in);
+	        System.out.println("Bir cumle gir");
+	        String cumle = klavye.nextLine();
+
+	        //simdi cumleyi okuyacak bir Scanner
+	        //nesnesi olusturalim
+
+	        Scanner cumleOkuyucu = new Scanner(cumle);
+
+	        //cumlede okunacak biseyler oldugu surece
+	        //calismaya devam et
+	        while(cumleOkuyucu.hasNext()){
+	            //bosluk karakterine kadar olan
+	            //next elemani al
+	            String kelime = cumleOkuyucu.next();
+	            System.out.println(kelime);
+	        }
+	    }
+
+	}
+
+
