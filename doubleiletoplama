@@ -1,0 +1,27 @@
+package ders2;
+
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ders3 {
+
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner (System.in);
+	// /* AMERİKA İÇİN LOCALE */
+		scan.useLocale(Locale.US);
+	System.out.println("Bir sayı giriniz");	
+		
+		double a = scan.nextDouble();
+ System.out.println("Birinci sayı " + a);
+ System.out.println("Bir sayı daha giriniz");
+ double b = scan.nextDouble();
+ System.out.println("İkinci sayı " + b);
+
+ System.out.println("Toplam sayı " + (a+b));
+ 
+ 
+	}
+
+}
