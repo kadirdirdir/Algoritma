@@ -1,0 +1,27 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class ortalama {
+
+	public static void main(String[] args) {
+		
+		        Scanner klavye = new Scanner(System.in);
+		        int toplam =0;
+		        double ort;
+
+		        for (int i = 0; i < 10; i++) {
+		        System.out.println("Bir sayi giriniz");
+		        int sayi = klavye.nextInt();
+		        toplam += sayi;
+		        }
+		        
+		        ort=(double)toplam/10;
+		        System.out.println("TOPLAM = " + toplam + "\nORTALAMA="+ort);
+		    }
+		
+
+
+	}
+
+
