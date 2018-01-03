@@ -1,0 +1,24 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class terscevirme {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.print("Bir kelime giriniz... =   "
+				  );
+	
+Scanner scan=new Scanner(System.in);
+String kelime=scan.nextLine();
+
+for (int i =kelime.length()-1; i >=0; i--)
+{
+	
+System.out.print( kelime.charAt(i));
+}
+
+	}
+
+}
