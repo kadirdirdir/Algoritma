@@ -1,0 +1,50 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class farkliortalama {
+
+	public static void main(String[] args) {
+		Scanner klavye = new Scanner(System.in);
+        int sayi, min, max;
+
+        //kac tane sayi girildigini tutmak icin
+        //sayac degiskeni
+        int sayac=0;
+
+        //girilen sayilarin toplamini tutmak icin
+        //toplam degiskeni
+        int toplam=0;
+        
+        double ort;
+
+        //hem min hem de max'a ilk sayiyi atiyoruz
+        System.out.println("Bir sayi giriniz");
+        sayi = klavye.nextInt();
+        min = max = sayi;
+
+        while (sayi >= 0) {
+            if (sayi > max) {
+                max = sayi;
+            }
+            if (sayi < min) {
+                min = sayi;
+            }
+            //okuma islemini en sonda yapiyoruz ki
+            //negatif sayi girildiginde min olarak atanmasin
+            System.out.println("Bir sayi giriniz");
+            sayi = klavye.nextInt();
+            toplam += sayi;
+            sayac++;
+        }
+
+        ort = (double)toplam/sayac;
+        System.out.println("Girdiginiz " + sayac + " sayinin:");
+        System.out.println("En büyük sayisi = " + max + "\nEN küçük sayisi = " + min +
+                "\nTOPLAMI = " + toplam + "\nORTALAMASI = "+ort);
+
+
+	}
+}
+
+
