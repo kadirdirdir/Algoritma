@@ -1,0 +1,29 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class sayisaydirma {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scan = new Scanner(System.in);
+	    
+		
+		int i;
+		for ( i = 0; i < 11 ; i++)
+		{
+			
+			System.out.println("i = "+i);
+		}
+		for ( i =11; i < 21 ; i++)
+		{
+			System.out.println("i2 = " +i);
+		}
+		for ( i = 21; i>0  ; i--)
+		{
+			System.out.println("i3 = " +i);
+		}
+	}
+	}
+
+
