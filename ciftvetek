@@ -1,0 +1,30 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class ciftvetek {
+
+	public static void main(String[] args) {
+
+		Scanner sayii = new Scanner(System.in);
+		
+		System.out.println("Bir Sayı giriniz...");
+		
+		int sayi= sayii.nextInt();
+		 
+		if (sayi % 2 == 0 )
+		{
+		System.out.println("Girilen sayı ÇİFT");
+		}
+		
+		else if ( sayi % 2 !=0)
+	{
+		System.out.println("Girilen sayı TEK");
+	}
+	 
+		
+		
+		
+		
+		}
+}
