@@ -1,0 +1,28 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class sayilartoplami {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sayilar = new Scanner(System.in);
+		 
+		int top = 0, sayi = 0;
+ 
+		for (int i=1; i < 16; i++){
+ 
+			System.out.print(i +". Bir sayı giriniz: ");
+ 
+			sayi = sayilar.nextInt();
+ 
+			top = top + sayi;
+ 
+		}
+ 
+		System.out.println("Girilen Sayıların Toplamı: "+top);
+ 
+	}
+	}
+
+
