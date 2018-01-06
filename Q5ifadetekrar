@@ -1,0 +1,25 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class ifadetekrar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ifade=new Scanner(System.in);
+		System.out.println("Bir ifade giriniz...");
+		
+		String nesne=ifade.nextLine();
+		
+		System.out.println("Tekrar edilmesini istediğiniz miktarı giriniz...");
+		
+		int tekrar=ifade.nextInt();
+		
+		for(int i=1; i<=tekrar ; i++)
+		{
+			System.out.println(nesne);
+		}
+		
+	}
+
+}
