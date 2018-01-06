@@ -1,0 +1,27 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class basamak {
+
+	public static void main(String[] args) {
+
+		int sayi, a=1, b=1;
+		Scanner dude=new Scanner(System.in);
+		System.out.print("sayi = ");
+		
+		
+	 int numb=dude.nextInt();
+		while (numb / a > 9)
+		
+		{
+			a = a * 10;
+			b++;
+		//	
+			
+		}
+		
+		System.out.print("Sayı "+ b +" basamaklıdır...");
+	}
+
+}
