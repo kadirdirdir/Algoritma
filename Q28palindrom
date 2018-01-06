@@ -1,0 +1,32 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class palindrom {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 String word = "";
+		    String reverse = "";
+		    Scanner dude = new Scanner(System.in);
+
+		    System.out.println("Bir kelime giriniz...");
+
+		    word = dude.nextLine();
+		    int length = word.length();
+		    for(int i = length; i > 0; i--)
+		    {
+		      reverse += word.charAt(i-1);
+		    }
+
+		    if(word.equalsIgnoreCase(reverse))
+		    {
+		      System.out.println("Girdiğiniz '"+word+"' Bir Palindromdur...");
+		    }
+		    else
+		    {
+		      System.out.println("Girdiğiniz  '"+word+"' Bir Palindrom Değildir...");
+		    }
+	}
+
+}
