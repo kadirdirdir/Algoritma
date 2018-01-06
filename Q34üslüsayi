@@ -1,0 +1,34 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class üslüsayi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int sonuc=1;
+	
+	Scanner sayi = new Scanner(System.in);
+	Scanner sayi2 = new Scanner(System.in);
+	
+	System.out.println("Bir sayi giriniz... ");
+	
+	int a = sayi.nextInt();
+
+	
+	
+	System.out.println("Bir sayi daha giriniz... ");
+	
+	int b = sayi2.nextInt();
+
+	
+	for(int i=1; i<=b;i++)
+	
+	{
+		sonuc=sonuc*a;
+	}
+	System.out.println(" Taban = " +  a+ ", Üst = " + b+ ", ====  Sonuc = " + sonuc);
+	}
+
+}
