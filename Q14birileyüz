@@ -1,0 +1,26 @@
+package kadirdirdir;
+public class birileyüz {
+	
+	public static void main (String[] args) {
+		
+		int a,i;
+		int c=1;
+		
+		for(c=1; c<=100; c++)
+		{
+		System.out.print(c+" Sayısının Pozitif Bölenleri...: ");
+		
+		for (a=1; a<=c; a++)
+		{
+		i= c % a;
+			
+		if(i==0)
+		{
+		System.out.print(a + ".  ");
+		}
+		}
+		System.out.println();
+		}
+		
+	}
+}
