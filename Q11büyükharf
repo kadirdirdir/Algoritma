@@ -1,0 +1,21 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class büyükharfecevirme {
+
+	public static void main(String[] args) {
+	
+        Scanner klavye = new Scanner(System.in);
+
+       
+        System.out.println("Bir cumle girin");
+        String cumle = klavye.nextLine();
+
+        System.out.println("BUYUK HARFLERLE = " + cumle.toUpperCase());
+      
+    }
+
+	}
+
+
