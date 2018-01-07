@@ -1,0 +1,29 @@
+package sinavsorusu;
+
+import java.util.Scanner;
+
+public class ikiliksayisistemi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	 Scanner   dude = new Scanner(System.in); 
+        System.out.print("Bir sayi giriniz:");
+        int sayi = dude.nextInt(); 
+        int i = 0;
+        int[] k = new int[30];
+         
+        while(sayi >= 1){
+            i++;
+            k[i] = sayi%2;
+            sayi = sayi / 2;
+        }
+         
+        System.out.print("Girilen sayının Binary karşılığı:   ");
+         
+        while(i > 0){
+            System.out.print(k[i]);
+            i--;
+        }
+	}
+
+}
