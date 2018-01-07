@@ -1,0 +1,24 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class enbuyuksayi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner dude=new Scanner(System.in);
+System.out.println("Bir sayı giriniz");
+int a=dude.nextInt();
+System.out.println("Bir sayı daha giriniz");
+int b=dude.nextInt();
+System.out.println("Bir sayı daha giriniz");
+int c=dude.nextInt();
+
+
+	
+System.out.println(Math.max(a, Math.max(b,c)));
+//bu kod ile döngü kurmadan büyük olanı seçebiliriz 
+	}
+	}
+
+
