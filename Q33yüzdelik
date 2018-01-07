@@ -1,0 +1,37 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class soru33 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		Scanner dude = new Scanner(System.in);
+		System.out.println("Bir sayı giriniz");
+		double sayi = dude.nextInt();
+		
+		
+		{
+			if (sayi>=50) {
+				System.out.println("Girdiğiniz sayı 50 veya 50 üzeri. Sayının Yüzde Onu = "+(sayi*10)/100);
+				
+			}
+			else
+			{
+				System.out.println("Girdiğiniz sayı 49 veya 49 altı. Sayının Yüzde Yirmi Beşi = "+(sayi*25)/100);
+			}
+				
+			}
+			
+			
+		}
+			
+		
+		
+
+	}
+
+
