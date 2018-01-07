@@ -1,0 +1,12 @@
+package kadirdirdir;
+
+public class rastgele {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  int random = 1 + (int)(Math.random() * 999999999);
+
+          System.out.println(random);
+	}
+
+}
