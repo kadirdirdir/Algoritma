@@ -1,0 +1,26 @@
+package kadirdirdir;
+
+public class ciftveyediyebolum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 45 ve 225 arasındaki ÇİFT ve 7 ile tam bölünen sayılar
+		for(int i=45; i<225; i++)
+			
+		{
+			
+			if(i%2==0 && i%7==0 )
+			
+			{
+				System.out.println( i );
+			}
+		}
+		
+		
+	
+		
+	
+		}
+	
+
+}
