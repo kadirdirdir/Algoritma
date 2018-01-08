@@ -30,7 +30,7 @@ public class sinavsorusu2 {
 			
 		}else 
 		{
-			System.out.println("Finalden Kaldınız Ama Ortalamanız = "+ortalama);
+			System.out.println("Dersten Kaldınız. Ortalamanız = "+ortalama);
 		
 		}
 	}
