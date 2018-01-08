@@ -1,0 +1,42 @@
+package kadirdirdir;
+
+import java.util.Scanner;
+
+public class sinavsorusu2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int vize, vize2, finall;
+		double ortalama;
+		
+		Scanner dude=new Scanner (System.in);
+		System.out.println("Vizeyi giriniz = ");
+		vize = dude.nextInt();
+	
+		System.out.println("Ara sınavı giriniz = ");
+		vize2 = dude.nextInt();
+		
+		System.out.println("Finali giriniz = ");
+		finall = dude.nextInt();
+		ortalama=vize*0.2 + vize2*0.3 + finall*0.5;
+		
+		if(finall>=35 && !(finall <35)) {
+			if(ortalama >= 60) {
+				System.out.println("Sınıfı  "+ ortalama + " notuyla geçtiniz");
+				
+			}
+			
+			
+		}else 
+		{
+			System.out.println("Finalden Kaldınız Ama Ortalamanız = "+ortalama);
+		
+		}
+	}
+}
+
+		
+	
+
+
