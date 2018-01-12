@@ -1,0 +1,26 @@
+//Math Sabitleri
+ 
+Math.PI : Pi sayısı
+Math.SQRT2 : Karekök 2
+Math.SQRT1_2 : Karekök 1/2
+Math.LN2 : Ln2
+Math.LN10 : Ln10
+Math.LOG2E : Log2e
+Math.LOG10E : Log e
+
+//Math Fonksiyonları
+
+Cell(x) = X'i üst tam sayıya yuvarlar.
+Cos(x)=  Cos(x).
+Sin(x)= Sin(x).
+Tan(x)= Tan(x).
+Exp(x)= E üzeri x.
+Log(x)= Log(x).
+Floor(x)= X'i alt tam sayıya yuvarlar.
+Pow(x,y)= X üssü y.
+Max(x,y.....z)= Parametrelerden en büyüğünü alır.
+Min(x,y.....z)= Parametrelerden en küçüğünü alır.
+Random()= 0 ile 1 arasında rastgele bir sayı seçer.
+Round(x)= X'e en yakın tam sayıyı seçer.
+Sqrt(x)= X'in karekökünü alır.
+
