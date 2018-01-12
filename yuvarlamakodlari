@@ -1,0 +1,16 @@
+// Yukarı yuvarlama
+var sayi=7.5;
+
+Math.ceil(sayi);
+
+//Aşağıya yuvarlama
+var sayi=17.5;
+
+Math.floor(sayi);
+
+// Standart yuvarlama. Virgülden sonrası 5 ve üstü ise yukarı yuvarlar, 4 ve altı olursa aşağıya yuvarlar
+var sayi=14.5;
+
+Math.round(sayi);
+
+
